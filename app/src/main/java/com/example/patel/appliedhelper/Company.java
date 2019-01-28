@@ -1,24 +1,14 @@
 package com.example.patel.appliedhelper;
 
 public class Company {
-    private int id;
     private String name;
     private String date_applied;
     private String status;
 
-    public Company(int id, String name, String date_applied, String status) {
-        this.id = id;
+    public Company(String name, String date_applied, String status) {
         this.name = name;
         this.date_applied = date_applied;
         this.status = status;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
